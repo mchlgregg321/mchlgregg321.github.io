@@ -1,0 +1,78 @@
+
+/* Sticky Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo styling */
+.navbar-brand img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+/* Custom Navbar Styling */
+.taniti-navbar {
+    background: linear-gradient(to right, #2EC4B6, #FF9F1C);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation link hover */
+.nav-link:hover {
+    color: #fce762 !important;
+    text-decoration: underline;
+}
+
+/* Hero Section Typography */
+.hero h1 {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.hero p {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FF9F1C;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e67e00;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000 !important;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer a {
+    color: #2EC4B6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+
+    .navbar-brand span {
+        font-size: 1.2rem;
+    }
+}
